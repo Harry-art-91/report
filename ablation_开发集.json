@@ -1,0 +1,281 @@
+{
+  "dataset": "开发集",
+  "results": {
+    "pure_vector": {
+      "n": 110,
+      "avg_precision": 0.9667,
+      "avg_recall": 0.8273,
+      "avg_f1": 0.8711,
+      "avg_latency_ms": 14.5,
+      "by_type": {
+        "兼职刷单": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.9697,
+          "f1": 0.9697
+        },
+        "假冒教务处": {
+          "count": 10,
+          "precision": 0.9667,
+          "recall": 0.6667,
+          "f1": 0.7644
+        },
+        "校园贷": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.8485,
+          "f1": 0.8909
+        },
+        "虚拟人设交友": {
+          "count": 10,
+          "precision": 0.9667,
+          "recall": 0.9667,
+          "f1": 0.96
+        },
+        "AI换脸诈骗": {
+          "count": 11,
+          "precision": 0.8182,
+          "recall": 0.8182,
+          "f1": 0.7909
+        },
+        "网络直播诈骗": {
+          "count": 12,
+          "precision": 1.0,
+          "recall": 0.8889,
+          "f1": 0.9333
+        },
+        "游戏账号诈骗": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.7273,
+          "f1": 0.8182
+        },
+        "快递理赔诈骗": {
+          "count": 12,
+          "precision": 0.9722,
+          "recall": 0.8333,
+          "f1": 0.8806
+        },
+        "虚假实习": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.8182,
+          "f1": 0.8768
+        },
+        "冒充辅导员": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.7273,
+          "f1": 0.8182
+        }
+      }
+    },
+    "pure_bm25": {
+      "n": 110,
+      "avg_precision": 0.9303,
+      "avg_recall": 0.8364,
+      "avg_f1": 0.8589,
+      "avg_latency_ms": 0.6,
+      "by_type": {
+        "兼职刷单": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.9091,
+          "f1": 0.9313
+        },
+        "假冒教务处": {
+          "count": 10,
+          "precision": 0.9667,
+          "recall": 0.7667,
+          "f1": 0.8444
+        },
+        "校园贷": {
+          "count": 11,
+          "precision": 0.7879,
+          "recall": 0.8485,
+          "f1": 0.7667
+        },
+        "虚拟人设交友": {
+          "count": 10,
+          "precision": 0.9667,
+          "recall": 1.0,
+          "f1": 0.98
+        },
+        "AI换脸诈骗": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.9091,
+          "f1": 0.9364
+        },
+        "网络直播诈骗": {
+          "count": 12,
+          "precision": 0.8611,
+          "recall": 0.8889,
+          "f1": 0.8472
+        },
+        "游戏账号诈骗": {
+          "count": 11,
+          "precision": 0.8788,
+          "recall": 0.8182,
+          "f1": 0.8424
+        },
+        "快递理赔诈骗": {
+          "count": 12,
+          "precision": 0.9722,
+          "recall": 0.8056,
+          "f1": 0.8639
+        },
+        "虚假实习": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.697,
+          "f1": 0.7859
+        },
+        "冒充辅导员": {
+          "count": 11,
+          "precision": 0.9394,
+          "recall": 0.7273,
+          "f1": 0.801
+        }
+      }
+    },
+    "hybrid_10": {
+      "n": 110,
+      "avg_precision": 0.8182,
+      "avg_recall": 0.7697,
+      "avg_f1": 0.7725,
+      "avg_latency_ms": 15.3,
+      "by_type": {
+        "兼职刷单": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.9697,
+          "f1": 0.9697
+        },
+        "假冒教务处": {
+          "count": 10,
+          "precision": 0.6333,
+          "recall": 0.7,
+          "f1": 0.6444
+        },
+        "校园贷": {
+          "count": 11,
+          "precision": 0.6667,
+          "recall": 0.6061,
+          "f1": 0.6
+        },
+        "虚拟人设交友": {
+          "count": 10,
+          "precision": 0.8667,
+          "recall": 0.8333,
+          "f1": 0.83
+        },
+        "AI换脸诈骗": {
+          "count": 11,
+          "precision": 0.8788,
+          "recall": 0.8788,
+          "f1": 0.8667
+        },
+        "网络直播诈骗": {
+          "count": 12,
+          "precision": 0.8611,
+          "recall": 0.8056,
+          "f1": 0.8204
+        },
+        "游戏账号诈骗": {
+          "count": 11,
+          "precision": 0.7576,
+          "recall": 0.7879,
+          "f1": 0.7384
+        },
+        "快递理赔诈骗": {
+          "count": 12,
+          "precision": 0.8333,
+          "recall": 0.8056,
+          "f1": 0.8037
+        },
+        "虚假实习": {
+          "count": 11,
+          "precision": 0.697,
+          "recall": 0.5455,
+          "f1": 0.5929
+        },
+        "冒充辅导员": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.7576,
+          "f1": 0.8455
+        }
+      }
+    },
+    "hybrid_05": {
+      "n": 110,
+      "avg_precision": 0.8212,
+      "avg_recall": 0.7697,
+      "avg_f1": 0.7737,
+      "avg_latency_ms": 15.7,
+      "by_type": {
+        "兼职刷单": {
+          "count": 11,
+          "precision": 0.9697,
+          "recall": 0.9697,
+          "f1": 0.9697
+        },
+        "假冒教务处": {
+          "count": 10,
+          "precision": 0.6333,
+          "recall": 0.7,
+          "f1": 0.6444
+        },
+        "校园贷": {
+          "count": 11,
+          "precision": 0.6667,
+          "recall": 0.6061,
+          "f1": 0.6
+        },
+        "虚拟人设交友": {
+          "count": 10,
+          "precision": 0.8667,
+          "recall": 0.8333,
+          "f1": 0.83
+        },
+        "AI换脸诈骗": {
+          "count": 11,
+          "precision": 0.8788,
+          "recall": 0.8788,
+          "f1": 0.8667
+        },
+        "网络直播诈骗": {
+          "count": 12,
+          "precision": 0.8611,
+          "recall": 0.8056,
+          "f1": 0.8204
+        },
+        "游戏账号诈骗": {
+          "count": 11,
+          "precision": 0.7576,
+          "recall": 0.7879,
+          "f1": 0.7384
+        },
+        "快递理赔诈骗": {
+          "count": 12,
+          "precision": 0.8611,
+          "recall": 0.8056,
+          "f1": 0.8148
+        },
+        "虚假实习": {
+          "count": 11,
+          "precision": 0.697,
+          "recall": 0.5455,
+          "f1": 0.5929
+        },
+        "冒充辅导员": {
+          "count": 11,
+          "precision": 1.0,
+          "recall": 0.7576,
+          "f1": 0.8455
+        }
+      }
+    }
+  }
+}
